@@ -1,0 +1,10 @@
+
+data.experiments=['BAO']
+data.parameters['Omega_cdm'] = [0.3, 0, None, 0.05, 1, 'cosmo']
+data.parameters['Omega_k'] = [0.0, -0.5,0.5, 0.05, 1, 'cosmo']
+data.parameters['Omega_b'] = [0.045, 0, None, 0.0, 1, 'cosmo']
+data.parameters['h'] = [0.68, 0, None, 0, 1, 'cosmo']
+data.parameters['Omega_Lambda'] = [1,None,None,0, 1, 'derived']
+data.cosmo_arguments['YHe'] = 0.24
+data.N=10
+data.write_step=5
