@@ -1,0 +1,12 @@
+#-----CLASS v2.7.0 (branch: master, hash: 4be2cb31bb87a5c90d8ae5277ae22252a4732676)-----
+
+
+data.experiments=['bao_boss_dr12','bao_smallz_2014']
+data.parameters['Omega_cdm'] = [0.3, 0, None, 0.05, 1, 'cosmo']
+data.parameters['Omega_k'] = [0.0, -0.5,0.5, 0.05, 1, 'cosmo']
+data.parameters['Omega_b'] = [0.045, 0, None, 0.0, 1, 'cosmo']
+data.parameters['h'] = [0.68, 0, None, 0, 1, 'cosmo']
+data.parameters['Omega_Lambda'] = [1,None,None,0, 1, 'derived']
+data.cosmo_arguments['YHe'] = 0.24
+data.N=10
+data.write_step=5
